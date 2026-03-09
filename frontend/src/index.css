@@ -3,3 +3,12 @@
 body {
   margin: 0;
 }
+
+textarea::-webkit-scrollbar {
+  display: none;
+}
+
+textarea {
+  scrollbar-width: none;
+  /* Firefox */
+}
